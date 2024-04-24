@@ -6,4 +6,4 @@ const Tile: React.FC<TileProps> = ({ suit, tileValue }) => {
     )
 }
 
-export default Tile
+export default Tile 

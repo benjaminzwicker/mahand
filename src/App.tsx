@@ -1,15 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './App.css';
-import Hand from './components/Hand';
+import Calculator from './pages/Calculator';
+import Feedback from './pages/Feedback';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Hand />
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Calculator />} />
+        <Route path="/feedback" element={<Feedback />} />
+      </Routes>
+    </Router>
   );
 }
 

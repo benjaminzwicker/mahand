@@ -29,3 +29,7 @@ interface TileProps {
   suit: Suit;
   tileValue: TileValue;
 }
+
+interface MahandHeaderProps {
+  children: React.ReactNode;
+}
