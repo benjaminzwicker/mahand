@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 
-const MahandHeader: React.FC<MahandHeaderProps> = ({ children }) => {
+const MahandHeader = ({ children }: MahandHeaderProps) => {
     return (
         <div>
             <Typography variant="h1" color="textPrimary" align="center">
