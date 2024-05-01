@@ -1,4 +1,4 @@
-export const honours: Array<TileProps> = [
+export const honours: Array<Tile> = [
   {
     suit: "Honours",
     tileValue: "East",

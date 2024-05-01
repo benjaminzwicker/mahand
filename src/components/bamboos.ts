@@ -1,4 +1,4 @@
-export const bamboos: Array<TileProps> = [
+export const bamboos: Array<Tile> = [
   {
     suit: "Bamboos",
     tileValue: "One",

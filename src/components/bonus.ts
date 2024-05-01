@@ -1,4 +1,4 @@
-export const bonus: Array<TileProps> = [
+export const bonus: Array<Tile> = [
   {
     suit: "Bonus",
     tileValue: "Spring",

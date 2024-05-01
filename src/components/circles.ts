@@ -1,4 +1,4 @@
-export const circles: Array<TileProps> = [
+export const circles: Array<Tile> = [
   {
     suit: "Circles",
     tileValue: "One",

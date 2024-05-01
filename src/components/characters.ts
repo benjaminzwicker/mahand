@@ -1,4 +1,4 @@
-export const characters: Array<TileProps> = [
+export const characters: Array<Tile> = [
   {
     suit: "Characters",
     tileValue: "One",
